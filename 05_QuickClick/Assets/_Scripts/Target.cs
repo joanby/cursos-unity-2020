@@ -53,7 +53,7 @@ public class Target : MonoBehaviour
     }
 
     
-    private void OnMouseClick()
+    private void OnMouseDown()
     {
         Destroy(gameObject);
     }
