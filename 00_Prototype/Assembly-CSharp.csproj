@@ -54,6 +54,9 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/00_Prototype/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/00_Prototype/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/00_Prototype/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
@@ -69,6 +72,9 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/00_Prototype/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/00_Prototype/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/00_Prototype/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
@@ -77,12 +83,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/00_Prototype/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/00_Prototype/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/00_Prototype/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.1.0b15/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

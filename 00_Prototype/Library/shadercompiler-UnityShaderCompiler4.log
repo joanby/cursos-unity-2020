@@ -2,3 +2,5 @@ Base path: '/Applications/Unity/Hub/Editor/2020.1.0b15/Unity.app/Contents', plug
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
   api=14 insize=1957 outsize=1393 ok=1
+
+Quitting shader compiler process
