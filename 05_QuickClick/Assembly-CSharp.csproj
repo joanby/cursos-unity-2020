@@ -52,6 +52,7 @@
   <ItemGroup>
      <Compile Include="Assets\Course Library\_Source_Files\Scripts\DestroyAfterDelay.cs" />
      <Compile Include="Assets\_Scripts\Target.cs" />
+     <Compile Include="Assets\_Scripts\GameManager.cs" />
      <None Include="Assets\Course Library\Fonts\Margarine\OFL.txt" />
      <None Include="Assets\Course Library\_Source_Files\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\Course Library\Fonts\Roboto_Condensed\LICENSE.txt" />
