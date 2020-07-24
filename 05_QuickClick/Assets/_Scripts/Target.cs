@@ -14,6 +14,13 @@ public class Target : MonoBehaviour
         maxTorque = 10,
         xRange = 4,
         ySpawnPos = -6;
+
+    private GameManager gameManager;
+
+    [Range(-100,100)]
+    public int pointValue;
+
+    public ParticleSystem explosionParticle;
     
     // Start is called before the first frame update
     void Start()
@@ -23,6 +30,9 @@ public class Target : MonoBehaviour
         _rigidbody.AddTorque(RandomTorque(), RandomTorque(),
             RandomTorque(), ForceMode.Impulse);
         transform.position = RandomSpawnPos();
+
+        //gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+        gameManager = FindObjectOfType<GameManager>();
     }
     
     /// <summary>
@@ -55,7 +65,13 @@ public class Target : MonoBehaviour
     
     private void OnMouseDown()
     {
-        Destroy(gameObject);
+        if (gameManager.gameState == GameManager.GameState.inGame)
+        {
+            Destroy(gameObject);
+            Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
+            gameManager.UpdateScore(pointValue);
+        }
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -63,6 +79,10 @@ public class Target : MonoBehaviour
         if (other.CompareTag("KillZone"))
         {
             Destroy(gameObject);
+            if (gameObject.CompareTag("Good"))
+            {
+                gameManager.GameOver();
+            }
         }
     }
 }

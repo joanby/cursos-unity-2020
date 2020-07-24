@@ -50,9 +50,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Course Library\_Source_Files\Scripts\DestroyAfterDelay.cs" />
-     <Compile Include="Assets\_Scripts\Target.cs" />
      <Compile Include="Assets\_Scripts\GameManager.cs" />
+     <Compile Include="Assets\_Scripts\Target.cs" />
+     <Compile Include="Assets\Course Library\_Source_Files\Scripts\DestroyAfterDelay.cs" />
+     <Compile Include="Assets\_Scripts\DifficultyButton.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Course Library\Fonts\Margarine\OFL.txt" />
@@ -105,6 +106,9 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/05_QuickClick/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/05_QuickClick/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.1.0b15/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
