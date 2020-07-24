@@ -62,8 +62,7 @@ public class Target : MonoBehaviour
         return new Vector3(Random.Range(-xRange,xRange), ySpawnPos);
     }
 
-    
-    private void OnMouseDown()
+    private void OnMouseOver()
     {
         if (gameManager.gameState == GameManager.GameState.inGame)
         {
