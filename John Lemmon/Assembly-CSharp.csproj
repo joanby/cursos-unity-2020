@@ -126,6 +126,24 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/John Lemmon/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Searcher.Editor">
+ <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+ <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ShaderGraph.Editor">
+ <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+ <HintPath>/Users/juangabriel/Developer/Projects/Unity/Cursos Udemy/cursos-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.1.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
