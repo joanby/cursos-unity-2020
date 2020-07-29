@@ -10,11 +10,13 @@ public class GameEnding : MonoBehaviour
 
     public float displayImageDuration = 1f;
     
-    private bool isPlayerAtExit; 
+    private bool isPlayerAtExit, isPlayerCaught; 
     
     public GameObject player;
 
     public CanvasGroup exitBackgroundImageCanvasGroup;
+
+    public CanvasGroup caughtBackgroundImageCanvasGroup;
     
     private float timer;
     private void OnTriggerEnter(Collider other)
@@ -29,19 +31,39 @@ public class GameEnding : MonoBehaviour
     {
         if (isPlayerAtExit)
         {
-            timer += Time.deltaTime;
-            exitBackgroundImageCanvasGroup.alpha = Mathf.Clamp(timer / fadeDuration,0,1);
+            EndLevel(exitBackgroundImageCanvasGroup, false);
+        }
+        else if (isPlayerCaught)
+        {
+            EndLevel(caughtBackgroundImageCanvasGroup, true);
+        }
+    }
 
-            if (timer > fadeDuration + displayImageDuration)
+    /// <summary>
+    /// Lanza la imagen de fin de la partida
+    /// </summary>
+    /// <param name="imageCanvasGroup">Imagen de fin de partida correspondiente</param>
+    void EndLevel(CanvasGroup imageCanvasGroup, bool doRestart)
+    {
+        timer += Time.deltaTime;
+        imageCanvasGroup.alpha = Mathf.Clamp(timer / fadeDuration,0,1);
+
+        if (timer > fadeDuration + displayImageDuration)
+        {
+            if (doRestart)
             {
-                EndLevel();
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            else
+            {
+                Application.Quit();
             }
         }
     }
 
-    
-    void EndLevel()
+
+    public void CatchPlayer()
     {
-        Application.Quit();
+        isPlayerCaught = true;
     }
 }
