@@ -8,23 +8,38 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ghost_Final
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 393d41ea0fb1d43488ba0b739703a060, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_1DBACDA4:
+        m_Texture: {fileID: 2800000, guid: 1d164bf7fea01614cb95459f5398ead2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C46E7ABD:
+        m_Texture: {fileID: 2800000, guid: 87f85b142bda60e448a89604ff099fd5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_E580D6F7:
+        m_Texture: {fileID: 2800000, guid: 072ca8f0a83c02649b6b0105630795c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeNoiseSubGraph_9B60B78C_Texture2DAD806345_841581715:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -44,11 +59,51 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _PannerSubGraphFinal_135A6454_Texture2D25BFE3D6_1816553808:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PannerSubGraphFinal_19DDB26_Texture2D25BFE3D6_1816553808:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_324682BE_Out_0:
+        m_Texture: {fileID: 2800000, guid: be14171909e301d4c8c926d395216a01, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_4E5D2B7F_Out_0:
+        m_Texture: {fileID: 2800000, guid: ffa3bbfb0a2a37740aec32cc4f3ed28c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_AC737693_Out_0:
+        m_Texture: {fileID: 2800000, guid: 1d164bf7fea01614cb95459f5398ead2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_B88DA638_Out_0:
+        m_Texture: {fileID: 2800000, guid: 87f85b142bda60e448a89604ff099fd5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_C3C45213_Out_0:
+        m_Texture: {fileID: 2800000, guid: b2bf2fce6ac5acf41b89f5759488edae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_E6BB0ACB_Out_0:
+        m_Texture: {fileID: 2800000, guid: ffa3bbfb0a2a37740aec32cc4f3ed28c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_3FBDC11B: 0.1
+    - Vector1_579A57B3: 3
+    - Vector1_64F84720: 0
+    - Vector1_8ECF6F48: 0.005
+    - Vector1_B2F0699D: 2
+    - Vector1_BA8DB8D1: -0.05
+    - Vector1_BB690407: 1
+    - Vector1_C298E1BE: 0.05
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -71,6 +126,15 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_1FAAE250: {r: 3.953349, g: 0, b: 2.71146, a: 0}
+    - Color_2DEB651E: {r: 0.01034908, g: 0.01034908, b: 1.324682, a: 0}
+    - Color_8B8CC17C: {r: 1.36557, g: 0.09558987, b: 1.242668, a: 0}
+    - Color_FB343544: {r: 0.9622642, g: 0.004538993, b: 0.8108381, a: 0}
+    - Vector2_2A5DAA66: {r: 0.1, g: 0.9, b: 0, a: 0}
+    - Vector2_3F38D696: {r: 1, g: 0.1, b: 0, a: 0}
+    - Vector2_710B871B: {r: 1, g: 0.5, b: 0, a: 0}
+    - Vector2_8B76A2FA: {r: 3, g: 10, b: 0, a: 0}
+    - Vector2_E6981D5C: {r: 1, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

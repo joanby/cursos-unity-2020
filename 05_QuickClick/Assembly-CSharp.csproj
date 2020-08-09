@@ -52,13 +52,13 @@
   <ItemGroup>
      <Compile Include="Assets\_Scripts\GameManager.cs" />
      <Compile Include="Assets\_Scripts\Target.cs" />
-     <Compile Include="Assets\Course Library\_Source_Files\Scripts\DestroyAfterDelay.cs" />
-     <Compile Include="Assets\_Scripts\DifficultyButton.cs" />
-     <Compile Include="Assets\_Scripts\PointerFollow.cs" />
      <Compile Include="Assets\Challenge 5\Scripts\DifficultyButtonX.cs" />
      <Compile Include="Assets\Challenge 5\Scripts\GameManagerX.cs" />
      <Compile Include="Assets\Challenge 5\Scripts\DestroyObjectX.cs" />
+     <Compile Include="Assets\Course Library\_Source_Files\Scripts\DestroyAfterDelay.cs" />
+     <Compile Include="Assets\_Scripts\DifficultyButton.cs" />
      <Compile Include="Assets\Challenge 5\Scripts\TargetX.cs" />
+     <Compile Include="Assets\_Scripts\PointerFollow.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Course Library\Fonts\Margarine\OFL.txt" />
@@ -297,6 +297,12 @@
  </Reference>
  <Reference Include="UnityEditor">
  <HintPath>/Applications/Unity/Hub/Editor/2020.1.0f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/Hub/Editor/2020.1.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>/Applications/Unity/Hub/Editor/2020.1.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/Applications/Unity/Hub/Editor/2020.1.0f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

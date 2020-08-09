@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Prototype 3.unity
+- path: Assets/Challenge 3/Challenge 3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
