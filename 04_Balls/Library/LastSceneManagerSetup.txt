@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Challenge 4/Challenge 4.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
